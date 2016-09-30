@@ -1,8 +1,8 @@
 {
-  "name": "react-workshop",
+  "name": "react-scaffolding",
   "version": "0.0.1",
-  "description": "React Workshop",
-  "repository": "",
+  "description": "React Scaffolding",
+  "repository": "https://github.com/dsicher/react-scaffolding.git",
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "NODE_ENV=PRODUCTION webpack --config webpack.config.prod.js",
