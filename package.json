@@ -7,7 +7,6 @@
     "prebuild": "rm -rf dist",
     "build": "NODE_ENV=PRODUCTION webpack --config webpack.config.prod.js",
     "postbuild": "npm run build:assets && npm run build:index",
-
     "build:assets": "cp -r src/assets dist/assets",
     "build:index": "cp index.html dist",
     "start": "node src/server.js"
@@ -32,6 +31,9 @@
     "react-addons-css-transition-group": "^15.0.2",
     "react-addons-shallow-compare": "^15.1.0",
     "react-dom": "^15.0.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
     "resolve-url": "^0.2.1",
     "resolve-url-loader": "^1.4.3",
     "sass-loader": "^3.2.0",

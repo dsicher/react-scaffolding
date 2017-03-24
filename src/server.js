@@ -31,11 +31,11 @@ app.listen(PORT, function(err) {
     }
     var fontIndex = Math.ceil(Math.random() * fonts.length);
     console.log('');
-    console.log(figlet.textSync('react', {
-      font: fonts[3],
+    console.log(figlet.textSync('redux', {
+      font: fonts[fontIndex],
     }));
-    console.log(figlet.textSync('workshop', {
-      font: fonts[3],
+    console.log(figlet.textSync('example', {
+      font: fonts[fontIndex],
     }));
     console.log(`Listening at http://localhost:${PORT}`);
   });
